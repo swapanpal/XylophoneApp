@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/c_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:onClick="playC"
+        android:background="@color/red" />
+    <Button
+        android:id="@+id/d_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="playD"
+        android:background="@color/orange" />
+    <Button
+        android:id="@+id/e_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="playE"
+        android:background="@color/yellow" />
+    <Button
+        android:id="@+id/f_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="playF"
+        android:background="@color/green" />
+    <Button
+        android:id="@+id/g_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="playG"
+        android:background="@color/turquoise" />
+    <Button
+        android:id="@+id/a_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="playA"
+        android:background="@color/blue" />
+    <Button
+        android:id="@+id/b_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/keyStyle"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="playB"
+        android:background="@color/purple" />
+
+
+
+</LinearLayout>
